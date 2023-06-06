@@ -1,0 +1,13 @@
+footer {
+    position: flex;
+    left: 0;
+    bottom: 0;
+    background-color: #2B7A0B;
+    color: white;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 1.5em;
+    width: 100%;
+    text-align: center;
+  }
+  

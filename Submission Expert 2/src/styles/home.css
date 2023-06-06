@@ -1,0 +1,154 @@
+.headline {
+    padding: 42px;
+    grid-template-columns: 66% auto;
+  }
+  
+  .headline_tagline {
+    font-weight: 700;
+    font-size: 2em;
+    text-align: center;
+    min-width: 44px;
+    min-height: 44px;
+  }
+  
+  .form {
+    width: 100%;
+    margin: 10px auto;
+    text-align: center;
+  }
+  
+  .list {
+    margin: 32px auto auto;
+    text-align: left;
+  }
+  
+  .menu{
+    display:contents;
+    margin-bottom: 15px;
+  }
+  
+  .post-menu a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .post-menu {
+    display: flex;
+    background-color: #d6d6d6;
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    height: 100%;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .post-menu:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4);
+  }
+  
+  
+  .city {
+    position: absolute;
+    padding: 8px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 12px;
+    background: linear-gradient(135deg, #FFD700, #FFA500);
+    color: #ffffff;
+    font-weight: 600;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: -5px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  
+  .city b {
+    margin-left: 5px;
+  }
+  
+  .list_restaurant_img{
+    width: 100%;
+    min-height: 250px;
+  }
+  
+  .list_restaurant_content {
+  padding: 20px;
+  text-align: justify;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.list_restaurant_content h1 {
+  font-size: 30px;
+  padding: 10px;
+  color: #333333;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  border-bottom: 1px solid #dddddd;
+  margin-bottom: 10px;
+}
+
+.list_restaurant_content h1 a {
+  font-size: 30px;
+  padding: 5px;
+  color: #555555;
+  text-decoration: none;
+}
+
+.list_restaurant_content h1 a:hover {
+  color: #333333;
+}
+
+  
+  .list_restaurant_title {
+    font-weight: 500;
+    transition: 0.3s opacity;
+  }
+  
+  .list_restaurant_title:hover {
+    opacity: 0.5;
+  }
+  
+  .list_restaurant_title a {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  .list_restaurant_description {
+    margin-top: 16px;
+    font-size: 16px;
+    line-height: 1.5em;
+    font-family:arial;
+    font-weight: 500;
+  }
+  
+  .list_restaurant_rating {
+    position: absolute;
+    background: linear-gradient(135deg, #00b300, #33cc33);
+    padding: 10px 15px;
+    text-align: center;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 600;
+    color: #ffffff;
+    border-radius: 0px 8px 0px 0px;
+    margin-top: -50px;
+    margin-left: -10px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+  }
+  
+  .list_restaurant_rating span {
+    font-size: 18px;
+    font-weight: 700;
+    color: #ffffff;
+  }
+  
+  
